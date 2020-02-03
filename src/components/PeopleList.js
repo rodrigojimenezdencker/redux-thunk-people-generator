@@ -17,7 +17,7 @@ class connectedPeopleList extends Component {
             <PeopleCard key={i} photo={el.picture.large} alt={el.name.first + " " + el.name.last} name={el.name.first} email={el.email} location={el.location.street.number} />
         ));
         return (
-            <Row style={{height: "400px", overflowY: "scroll"}}>
+            <Row style={{height: "400px", overflow: "auto"}}>
                 {peopleList}
             </Row>
         )
