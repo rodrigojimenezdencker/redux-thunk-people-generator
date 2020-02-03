@@ -1,12 +1,12 @@
 import React from 'react';
 import Input from './Input';
-import ArticleList from './ArticleList';
+import PeopleList from './PeopleList';
 import { Container } from 'reactstrap';
 
 const App = () => (
   <Container className="App-header">
     <Input />
-    <ArticleList />
+    <PeopleList />
   </Container>
 );
 export default App;
