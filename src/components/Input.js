@@ -53,7 +53,7 @@ class connectedInput extends Component {
                 <FormGroup>
                     <Label for="country">Country:</Label>
                     <Input type="select" onChange={this.handleChangeSelectCountry} id="country" value={this.state.nationality}>
-                        <option selected value="">All countries</option>
+                        <option value="">All countries</option>
                         {nationalitiesSelect}
                     </Input>
                 </FormGroup>
