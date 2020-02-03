@@ -25,7 +25,7 @@ class connectedPeopleList extends Component {
             </Col>
         ));
         return (
-            <Row style={{height: "450px", overflowY: "scroll"}}>
+            <Row style={{height: "400px", overflowY: "scroll"}}>
                 {peopleList}
             </Row>
         )
